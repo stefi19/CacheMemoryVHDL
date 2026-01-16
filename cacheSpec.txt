@@ -1,0 +1,16 @@
+cache capacity: 256 bytes
+block size: 4 bytes
+number of cache lines: 64
+mapping policy: direct-mapped
+write policy: write through
+
+=> tag, index, offset
+tag = 8 
+index = 6 bits (select one of the 64 cache lines)
+offset = 2 bits (select one byte from the block)
+
+FSM: 
+- Search (check available info; if not found - miss and go to update, else go to RD/WR state)
+- Update (bring an entire block from the main memory to compensate)
+- RD/WR (data is read from or written to cache)
+

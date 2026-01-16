@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CacheMemory.srcs/sources_1/new/FSM.vhd" \
+"../../../../CacheMemory.srcs/sources_1/new/MUX4x1.vhd" \
+"../../../../CacheMemory.srcs/sources_1/new/RAM64x8.vhd" \
+"../../../../CacheMemory.srcs/sources_1/new/RAM64x9.vhd" \
+"../../../../CacheMemory.srcs/sources_1/new/cache256.vhd" \
+"../../../../CacheMemory.srcs/sources_1/new/comparator.vhd" \
+"../../../../CacheMemory.srcs/sources_1/new/decoder2x4.vhd" \
+"../../../../CacheMemory.srcs/sources_1/new/topLevelModule.vhd" \
+"../../../../CacheMemory.srcs/sim_1/new/simulationScenario.vhd" \
+
+# Do not sort compile order
+nosort

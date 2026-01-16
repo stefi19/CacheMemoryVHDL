@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "simulationScenario_behav" "xil_defaultlib.simulationScenario" -log "elaborate.log" 
